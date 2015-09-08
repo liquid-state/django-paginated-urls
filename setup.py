@@ -30,7 +30,7 @@ history = open('HISTORY.rst').read().replace('.. :changelog:', '')
 setup(
     name='django-paginated-urls',
     version=version,
-    description="""Helpers for preturning users to the correct page of a view using pagination.""",
+    description="""Helpers for returning users to the correct page of a view using pagination.""",
     long_description=readme + '\n\n' + history,
     author='Cyril Doussin',
     author_email='cyril@liquid-state.com',
