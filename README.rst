@@ -8,7 +8,9 @@ django-paginated-urls
 .. image:: https://travis-ci.org/cyrildoussin/django-paginated-urls.png?branch=master
     :target: https://travis-ci.org/cyrildoussin/django-paginated-urls
 
-Helpers for preturning users to the correct page of a view using pagination.
+Helpers for returning users to the correct page of a view using pagination.
+
+Note: this is work in-progress that hasn't been battle-tested (yet). Use at your own risk.
 
 Documentation
 -------------
