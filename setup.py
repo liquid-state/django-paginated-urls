@@ -34,7 +34,7 @@ setup(
     long_description=readme + '\n\n' + history,
     author='Cyril Doussin',
     author_email='cyril@liquid-state.com',
-    url='https://github.com/cyrildoussin/django-paginated-urls',
+    url='https://github.com/liquid-state/django-paginated-urls',
     packages=[
         'paginated_urls',
     ],
