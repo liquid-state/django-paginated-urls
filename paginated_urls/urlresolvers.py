@@ -11,4 +11,4 @@ from .utils import add_page_to_url
 
 def paginated_reverse(request, url_name, **kwargs):
     url = reverse(viewname=url_name, **kwargs)
-    return add_page_to_url(request, url_name, url)
+    return add_page_to_url(request, url)

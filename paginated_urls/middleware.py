@@ -15,10 +15,9 @@ class PaginatedURLMiddleware():
         :return: HttpResponse (returned from calling view_func)
         """
         page = request.GET.get('page')
-        if page and request.user.is_authenticated():
-            url_name = request.resolver_match.url_name
+        if page:
             request.session['latest_paginated_url'] = dict(
-                url_name=url_name,
+                path=request.path,
                 page=page
             )
         return None  # continue processing the view

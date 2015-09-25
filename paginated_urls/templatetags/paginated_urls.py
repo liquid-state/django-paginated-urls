@@ -17,7 +17,7 @@ register = template.Library()
 class PaginatedURLNode(URLNode):
     def render(self, context):
         url = super().render(context)
-        return add_page_to_url(context['request'], str(self.view_name.var), url)
+        return add_page_to_url(context['request'], url)
 
 
 @register.tag
